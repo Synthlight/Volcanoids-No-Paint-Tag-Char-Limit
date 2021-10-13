@@ -1,4 +1,7 @@
 {
     "LoadGroup": 0,
-    "Version": "1.0"
+    "Version": "1.0",
+    "UniqueModId": "No-Paint-Tag-Char-Limit",
+    "Title": "No Paint Tag Character Limit",
+    "MultiplayerMode": 2
 }

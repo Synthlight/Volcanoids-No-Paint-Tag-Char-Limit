@@ -7,8 +7,7 @@ using TMPro;
 namespace No_Paint_Tag_Char_Limit {
     [UsedImplicitly]
     public class Plugin : BaseGameMod {
-        protected override string ModName    => "No-Paint-Tag-Char-Limit";
-        protected override bool   UseHarmony => true;
+        protected override bool UseHarmony => true;
     }
 
     [HarmonyPatch]
