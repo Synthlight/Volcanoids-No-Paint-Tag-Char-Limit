@@ -16,7 +16,7 @@ namespace No_Paint_Tag_Char_Limit {
         [HarmonyTargetMethod]
         [UsedImplicitly]
         public static MethodBase TargetMethod() {
-            return typeof(PaintCameraController).GetMethod("Awake", BindingFlags.NonPublic | BindingFlags.Instance);
+            return typeof(PaintCameraController).GetMethod(nameof(PaintCameraController.Awake), BindingFlags.NonPublic | BindingFlags.Instance);
         }
 
         [UsedImplicitly]
